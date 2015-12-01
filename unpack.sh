@@ -47,5 +47,8 @@ for d in */ ; do
     
     # Optional: removing other stuff that you won't use
     #rm download*
+    
+    # cd'ing back to the ESO_data folder
+    cd ..
 
 done
