@@ -27,8 +27,10 @@ for d in */ ; do
     # Optional: removes the fits files that are not reduced data
     #rm *.fits
     
-    # Untar'ing the reduced data
+    # Untar'ing the reduced data (if you use Mac OSX or if you get an error,
+    # use the command without the option --force-local)
     ls *.tar |xargs -n1 tar --force-local -xvf
+    #ls *.tar |xargs -n1 tar -xvf
     
     # Optional: removing the tarballs 
     #rm *.tar
